@@ -1,0 +1,93 @@
+.glass {
+  position: relative;
+  /* background: e1e1e10d05; */
+background: white;
+  border-radius: 40px;
+  overflow: hidden;
+  z-index: 10;
+  width: 22em;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  -webkit-box-shadow: 5px 5px 30px rgba(55, 84, 170, 0.2);
+  box-shadow: 5px 5px 30px rgba(55, 84, 170, 0.2);
+
+  padding: 20px 30px;
+}
+select{
+  width: 100%;
+  padding: 0.35em;
+  background: #FFFFFF;
+  color: #535A6C;
+  border: 2px solid #535A6C;
+}
+
+.glass__form {
+  position: relative;
+  display: grid;
+}
+
+.glass__form h4 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.glass__form__group {
+  margin: 10px 0;
+}
+
+.glass__form__input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 10%);
+}
+
+.glass__form__input:focus {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.glass__form__btn {
+  background: #278BFF;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+}
+
+
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #000;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #000;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #000;
+}
